@@ -104,11 +104,12 @@ def changing_alan
         }
      }
      
-     grace_hopper[:known_for] = "GUI"
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
-     grace_hopper
+     grace_hopper[alans_new_info] = "GUI"
+     
+     alans_new_info
 end
 
 def adding_to_dennis
