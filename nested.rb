@@ -13,7 +13,6 @@ def hopper
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
-          puts grace_hopper
         }
      }
 
